@@ -1,0 +1,30 @@
+# Local SDK, generated files and build caches
+.gradle/
+**/.gradle/
+**/build/
+**/local.properties
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Local runtime and private data
+work/
+outputs/
+vendor/
+**/vendor/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.policy-classes/
+*.log
+*.apk
+*.aab
+*.jks
+*.keystore
+.env
+.env.*
+!*.example
+/prepare_public_source.py
+/publication-manifest.json
